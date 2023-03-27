@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Generate Letter</title>
+</head>
+<body>
+    <h1>Generate Letter</h1>
+    <form method="post" action="/generate_letter" enctype="multipart/form-data">
+        <div>
+            <label for="letter">Letter:</label>
+            <input type="file" name="letter" id="letter" required>
+        </div>
+        <div>
+            <label for="excel">Employee Data:</label>
+            <input type="file" name="excel" id="excel" required>
+        </div>
+        <button type="submit">Generate</button>
+    </form>
+</body>
+</html>
